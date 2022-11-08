@@ -1,0 +1,78 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    height: 100%;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+.banner-text {
+    text-align: center;
+    
+
+}
+.text-clr{
+    color:white;
+}
+.menu{
+    
+    overflow: hidden;
+}
+.menu li{
+    float: right;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-align: right;
+    text-decoration: none;
+}
+.menu li:hover{
+    background-color: darkgrey;
+    color: black;
+}
+.menu li.active{
+    background-color: #04AA6D;
+    color: white;
+}
+/*.button-link{
+    border-style: initial;
+    text-decoration: none;
+    background-image: linear-gradient(yellow,rgb(130, 130, 57));
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-link:hover{
+    fill-opacity: .8s;
+
+}*/
+
+.hero-section{
+    background-image: url(images/bg-img.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fade {
+    background-color: #9f6c77;
+    color: #fff;
+    transition: background-color 3s;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px;
+  }
+  
+  .fade:hover {
+    background-color: #696600;
+  }
+  
+  .fade:focus,
+  .fade:active {
+    background-color: black;
+    transition: none;
+  }
